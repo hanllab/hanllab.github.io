@@ -1,0 +1,34 @@
+---
+title: "Economics"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 1
+    #code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+```
+
+In this section, I will post some of my economics research projects.
+
+# My first post
+
+2020 | 5 | 10 Last compiled: `r Sys.Date()`
+
+This is my first post.
+
+# My second post (note the order)
+
+2020 | 5 | 10 Last compiled: `r Sys.Date()`
+
+```{r}
+samples <- rnorm(100, mean=0, sd=1)
+hist(samples)
+```
+
+

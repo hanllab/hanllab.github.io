@@ -1,11 +1,11 @@
-name: "MyLabJournal"
+name: "Han's Journal"
+cover-image: "/images/logo.png"
+description: "Han's Research Journal"
 navbar:
-  title: "MyLabJournal"
+  title: "Han's Journal"
   left:
-    - text: "Home"
-      href: index.html
-    - text: "Journal"
-      href: Journal.html
-    - text: "Links"
-      href: Links.html
+    - text: "Data Science"
+      href: datascience.html
+    - text: "Economics"
+      href: economics.html
 output_dir: "."
